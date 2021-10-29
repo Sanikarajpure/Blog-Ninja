@@ -1,0 +1,181 @@
+.loginPageWrapper {
+}
+
+.LoginContainer {
+  position: absolute;
+  left: 25%;
+  top: 30%;
+  height: 50%;
+  width: 50%;
+  display: flex;
+  border-radius: 0.4rem;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  background-color: #fff;
+}
+
+.loginLSection {
+  width: 50%;
+  align-items: center;
+  position: relative;
+  background-color: #db8a74;
+  display: flex;
+  justify-content: center;
+  border-radius: 0.4rem 0 0 0.4rem;
+}
+
+.loginRSection {
+  width: 50%;
+}
+.loginHeader {
+  text-align: center;
+  font-size: 2rem;
+  margin-top: 2rem;
+}
+.loginForm {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  height: max-content;
+  padding: 2rem;
+  margin: 2% 0% 0% 0%;
+}
+.loginInputContainer {
+  height: 4rem;
+}
+.loginInput {
+  border: 1.5px dotted #f07850;
+  border-radius: 0.4rem;
+  margin: 2% 2% 1% 2%;
+  padding: 3%;
+  width: 90%;
+}
+
+.loginInput.error {
+  border: 1.5px dotted rgb(243, 60, 60);
+}
+
+.LoginBtn {
+  text-decoration: none;
+  margin: 2% 0 0 0;
+  padding: 3%;
+  width: 40%;
+  height: max-content;
+  align-self: center;
+  text-align: center;
+  font-size: 1.5rem;
+  background-color: var(--secondaryColor);
+  color: var(--dark);
+  border-radius: 0.4rem;
+  cursor: pointer;
+  transition: all 200ms ease-in;
+}
+.LoginBtn:hover {
+  background-color: var(--primaryColor);
+  color: white;
+}
+
+.loginBGImg {
+  height: 330px;
+  width: 350px;
+  border-radius: 0.4rem;
+}
+.textonimage {
+  position: absolute;
+  top: 2%;
+  left: 5%;
+  font-weight: 700;
+  font-size: 1.8rem;
+  color: var(--dark);
+}
+
+.errorLabel {
+  margin: -0.2rem 0 0 5%;
+  width: 50%;
+  color: rgb(243, 60, 60);
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+/*-------------------------------Media_Queries---------------------------------*/
+@media screen and (max-width: 1370px) {
+  .LoginContainer {
+    left: 8%;
+    top: 20%;
+    height: 60%;
+    width: 80%;
+  }
+  .loginForm {
+    margin: 20% 0% 0% 2%;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .LoginContainer {
+    left: 8%;
+    top: 20%;
+    height: 60%;
+    width: 80%;
+  }
+  .loginForm {
+    margin: 46% 0% 0% 0%;
+  }
+}
+@media screen and (max-width: 840px) {
+  .LoginContainer {
+    left: 8%;
+    top: 20%;
+    height: 60%;
+    width: 80%;
+    display: block;
+  }
+
+  .loginLSection {
+    display: none;
+  }
+  .loginRSection {
+    width: 100%;
+  }
+  .loginHeader {
+    font-size: 3rem;
+    margin-top: 3rem;
+  }
+  .loginForm {
+    margin: 16% 0% 0% 0%;
+  }
+  .LoginBtn {
+    margin: 10% 0 0 0;
+  }
+}
+@media screen and (max-width: 770px) {
+}
+@media screen and (max-width: 480px) {
+}
+@media screen and (max-width: 380px) {
+}
+@media screen and (max-width: 360px) {
+  .LoginContainer {
+    left: 10%;
+    top: 15%;
+    height: 70%;
+    width: 80%;
+    display: block;
+  }
+
+  .loginLSection {
+    display: none;
+  }
+  .loginRSection {
+    width: 100%;
+  }
+  .loginHeader {
+    font-size: 3rem;
+    margin-top: 3rem;
+  }
+  .loginForm {
+    margin: 16% 0% 0% 0%;
+  }
+  .LoginBtn {
+    margin: 10% 0 0 0;
+  }
+}
+@media screen and (max-width: 320px) {
+}

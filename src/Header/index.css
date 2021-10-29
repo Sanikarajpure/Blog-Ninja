@@ -1,0 +1,138 @@
+.headerWrapper {
+  display: flex;
+  width: 100vw;
+  justify-content: space-between;
+  align-items: center;
+  height: 3rem;
+  box-shadow: rgb(0 0 0 / 5%) 0px 6px 24px 0px;
+  background-color: #fff;
+}
+.nameDisplay {
+  width: 20%;
+  display: flex;
+}
+.userName {
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+.dropDownIcon {
+  display: flex;
+  align-items: center;
+  margin: 0.4rem 0 0 0.5rem;
+  cursor: pointer;
+}
+.logoContainer {
+  font-size: 1.8rem;
+  width: 30%;
+}
+.logoText {
+  margin: 0% 0 0 4%;
+  font-weight: 100;
+}
+.HeaderDropDown {
+  position: absolute;
+  top: 8%;
+  left: 80%;
+  display: flex;
+  justify-content: center;
+  padding: 0.5rem;
+  background-color: #ffff;
+  border-radius: 0.4rem;
+  user-select: none;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.dropDownOption1 {
+  height: 50%;
+  text-align: center;
+  padding: 0rem;
+  background-color: #ffff;
+  padding: 0.5rem;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  transition: background-color 250ms ease-in;
+}
+.dropDownOption1:hover {
+  background-color: #db8a74;
+}
+/*-------------------------------Media_Queries---------------------------------*/
+@media screen and (max-width: 1370px) {
+  .HeaderDropDown {
+    top: 5.5%;
+    left: 80%;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .HeaderDropDown {
+    top: 5%;
+    left: 82%;
+  }
+}
+@media screen and (max-width: 840px) {
+  .logoContainer {
+    font-size: 1.4rem;
+    width: 50%;
+    padding: 1% 0 0 0;
+  }
+  .logoText {
+    margin: 0% 0 0 4%;
+  }
+  .nameDisplay {
+    width: 25%;
+    display: flex;
+  }
+  .HeaderDropDown {
+    top: 5.5%;
+    left: 74%;
+  }
+  .HeaderDropDown {
+    top: 4.5%;
+  }
+}
+@media screen and (max-width: 770px) {
+  .HeaderDropDown {
+    top: 5%;
+    left: 75%;
+  }
+}
+@media screen and (max-width: 480px) {
+  .HeaderDropDown {
+    top: 6%;
+    left: 72%;
+  }
+}
+@media screen and (max-width: 420px) {
+  .HeaderDropDown {
+    top: 6.8%;
+    left: 72%;
+  }
+}
+@media screen and (max-width: 380px) {
+  .HeaderDropDown {
+    top: 7.5%;
+    left: 72%;
+  }
+}
+@media screen and (max-width: 360px) {
+  .HeaderDropDown {
+    top: 8%;
+    left: 70%;
+  }
+}
+@media screen and (max-width: 320px) {
+  .logoContainer {
+    font-size: 1.4rem;
+    width: 60%;
+    padding: 1% 0 0 0;
+  }
+  .logoText {
+    margin: 0% 0 0 4%;
+  }
+  .nameDisplay {
+    width: 25%;
+    display: flex;
+  }
+  .HeaderDropDown {
+    top: 9.5%;
+    left: 68%;
+  }
+}

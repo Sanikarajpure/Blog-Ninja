@@ -1,0 +1,25 @@
+[
+    {
+    
+      "email": "sanika.rajpure@gmail.com",
+      "password": "sanika2102",
+      "firstName": "Sanika",
+      "lastName":"Rajpure",
+      "city":"Pune"
+    },
+    {
+        "email": "rajpuresarvesh@gmail.com",
+        "password": "sarvesh0211",
+        "firstName": "Sarvesh",
+        "lastName":"Rajpure",
+        "city":"Pune"
+    },
+    {
+        "email": "admin@gmail.com",
+        "password": "admin123",
+        "firstName": "Super",
+        "lastName":"Admin",
+        "city":"Kuala Lumpur"
+    }
+   
+  ]
